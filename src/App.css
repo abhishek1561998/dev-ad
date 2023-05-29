@@ -1,0 +1,78 @@
+.gradient-Eclipse {
+  position: absolute;
+  width: 530px;
+  height: 500px;
+  left: -337px;
+  top: -147.06px;
+  background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ff29f4ca 100%);
+  opacity: 0.8;
+  filter: blur(100px);
+  transform: rotate(-17.38deg);
+}
+
+.Sphere-White-Matte {
+  position: absolute;
+  left: 91.04%;
+  right: 5.4%;
+  top: 2.8%;
+  bottom: 88.52%;
+  background: url(../public/Sphere-White-Matte.png);
+  z-index: 99999;
+  background-repeat: no-repeat;
+  transform: rotate(-4.38deg);
+}
+.SuperToroid-Yellow-Glossy {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.banner-box {
+  background: linear-gradient(
+    126deg,
+    rgb(255 255 255 / 10%) 3.44%,
+    rgb(255 255 255 / 11%) 64.82%
+  );
+  filter: drop-shadow(2px 4px 6px black);
+  backdrop-filter: blur(41px);
+  border-radius: 24px;
+  padding: 20px;
+}
+
+.Pill-Blue-Glossy img {
+  position: absolute;
+  left: -0.87%;
+  bottom: -20.93%;
+  transform: rotate(-4.38deg);
+  background-repeat: no-repeat;
+  z-index: 99999;
+}
+
+.RoundCube-Orange-Glossy {
+  position: absolute;
+  left: 55.92%;
+  right: 38.18%;
+  top: 100.13%;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Pill-Blue-Glossy img {
+    position: absolute;
+    left: -0.87%;
+    bottom: -50.93%;
+    transform: rotate(-1.38deg);
+    background-repeat: no-repeat;
+    z-index: 99999;
+  }
+  .RoundCube-Orange-Glossy {
+    position: absolute;
+    left: 37.92%;
+    right: 38.18%;
+    top: 142.13%;
+    bottom: 0;
+  }
+}

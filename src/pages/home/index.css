@@ -1,0 +1,29 @@
+.banner-section {
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 54px;
+
+  color: #f9fafb;
+}
+
+.btn-connected {
+  background-color: rgb(242, 103, 46) !important;
+  color: rgb(0 0 0) !important;
+  padding: 10px !important;
+  border-radius: 50px !important;
+  margin-top: 4rem !important;
+  filter: blur(1px) !important;
+}
+
+.btn-connected:hover {
+  background-color: rgb(242, 103, 46) !important;
+  color: rgb(0 0 0) !important;
+  padding: 10px !important;
+  border-radius: 50px !important;
+  margin-top: 4rem !important;
+  filter: blur(0px) !important;
+}

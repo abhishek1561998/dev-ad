@@ -175,7 +175,7 @@ export default function Projects() {
         <Grid item xs={12} sm={6} display={"flex"} alignItems={"center"}>
           <img
             width={"100%"}
-            src={process.env.PUBLIC_URL + "/Credmudra.png"}
+            src={process.env.PUBLIC_URL + "/credmudra.png"}
             alt="credmudra"
           />
         </Grid>
